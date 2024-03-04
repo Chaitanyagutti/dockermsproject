@@ -1,27 +1,18 @@
----
-version: "3.8"
+version: '3.8'
 services:
-  movies:
-    image: rahamshaik/moviespayyy:latest
+  valorant:
+    image: chaitanyagutti16/valorant:latest
     ports:
-      - 81:80
-    deploy:
-      replicas: 3
-  train:
-    image: rahamshaik/trainpayyy:latest
+      - "81:80"
+  mustang:
+    image: chaitanyagutti16/mustang:latest
     ports:
-      - 82:80
-    deploy:
-      replicas: 3
-  recharge:
-    image: rahamshaik/rechargepayyy:latest
+      - "82:80"
+  paytm2:
+    image: chaitanyagutti16/paytm2:latest
     ports:
-      - 83:80
-    deploy:
-      replicas: 3
-  dth:
-    image: rahamshaik/dthpayyy:latest
+      - "83:80"
+  cyclepage6:
+    image: chaitanyagutti16/cyclepage6:latest
     ports:
-      - 84:80
-    deploy:
-      replicas: 3
+      - "84:80"
